@@ -64,32 +64,32 @@ namespace Desktop.Robot
 
         [Keycode(Platform = "OSX", Keycode = 0x26)]
         [Keycode(Platform = "Windows", Keycode = 0x4A)]
-        [Keycode(Platform = "Linux", Keycode = 0x006A)]
+        [Keycode(Platform = "Linux", Keycode = 0x006a)]
         J,
 
         [Keycode(Platform = "OSX", Keycode = 0x28)]
         [Keycode(Platform = "Windows", Keycode = 0x4B)]
-        [Keycode(Platform = "Linux", Keycode = 0x006B)]
+        [Keycode(Platform = "Linux", Keycode = 0x006b)]
         K,
 
         [Keycode(Platform = "OSX", Keycode = 0x25)]
         [Keycode(Platform = "Windows", Keycode = 0x4C)]
-        [Keycode(Platform = "Linux", Keycode = 0x006C)]
+        [Keycode(Platform = "Linux", Keycode = 0x006c)]
         L,
 
         [Keycode(Platform = "OSX", Keycode = 0x2E)]
         [Keycode(Platform = "Windows", Keycode = 0x4D)]
-        [Keycode(Platform = "Linux", Keycode = 0x006D)]
+        [Keycode(Platform = "Linux", Keycode = 0x006d)]
         M,
 
         [Keycode(Platform = "OSX", Keycode = 0x2D)]
         [Keycode(Platform = "Windows", Keycode = 0x4E)]
-        [Keycode(Platform = "Linux", Keycode = 0x006E)]
+        [Keycode(Platform = "Linux", Keycode = 0x006e)]
         N,
 
         [Keycode(Platform = "OSX", Keycode = 0x1F)]
         [Keycode(Platform = "Windows", Keycode = 0x4F)]
-        [Keycode(Platform = "Linux", Keycode = 0x006F)]
+        [Keycode(Platform = "Linux", Keycode = 0x006f)]
         O,
 
         [Keycode(Platform = "OSX", Keycode = 0x23)]
@@ -147,55 +147,55 @@ namespace Desktop.Robot
         [Keycode(Platform = "Linux", Keycode = 0x007a)]
         Z,
 
-        
+
         //Numbers
-        [Keycode(Platform = "OSX", Keycode = 0x30)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "OSX", Keycode = 0x1D)]
+        [Keycode(Platform = "Windows", Keycode = 0x30)]
         [Keycode(Platform = "Linux", Keycode = 0x0030)]
         Zero,
 
-        [Keycode(Platform = "OSX", Keycode = 0x31)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "OSX", Keycode = 0x12)]
+        [Keycode(Platform = "Windows", Keycode = 0x31)]
         [Keycode(Platform = "Linux", Keycode = 0x0031)]
         One,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x32)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x13)]
+        [Keycode(Platform = "Windows", Keycode = 0x32)]
         [Keycode(Platform = "Linux", Keycode = 0x0032)]
         Two,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x33)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x14)]
+        [Keycode(Platform = "Windows", Keycode = 0x33)]
         [Keycode(Platform = "Linux", Keycode = 0x0033)]
         Three,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x34)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x15)]
+        [Keycode(Platform = "Windows", Keycode = 0x34)]
         [Keycode(Platform = "Linux", Keycode = 0x0034)]
         Four,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x35)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x17)]
+        [Keycode(Platform = "Windows", Keycode = 0x35)]
         [Keycode(Platform = "Linux", Keycode = 0x0035)]
         Five,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x36)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x16)]
+        [Keycode(Platform = "Windows", Keycode = 0x36)]
         [Keycode(Platform = "Linux", Keycode = 0x0036)]
         Six,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x37)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x1A)]
+        [Keycode(Platform = "Windows", Keycode = 0x37)]
         [Keycode(Platform = "Linux", Keycode = 0x0037)]
         Seven,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x38)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x1C)]
+        [Keycode(Platform = "Windows", Keycode = 0x38)]
         [Keycode(Platform = "Linux", Keycode = 0x0038)]
         Eight,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x39)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x19)]
+        [Keycode(Platform = "Windows", Keycode = 0x39)]
         [Keycode(Platform = "Linux", Keycode = 0x0039)]
         Nine,
 
@@ -206,119 +206,125 @@ namespace Desktop.Robot
         [Keycode(Platform = "Linux", Keycode = 0x002c)]
         Comma,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x29)]
+        [Keycode(Platform = "Windows", Keycode = 0xBA)]
         [Keycode(Platform = "Linux", Keycode = 0x003a)]
         Colon,
 
         [Keycode(Platform = "OSX", Keycode = 0x29)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
-        [Keycode(Platform = "Linux", Keycode = 0x003a)]
+        [Keycode(Platform = "Windows", Keycode = 0xBA)]
+        [Keycode(Platform = "Linux", Keycode = 0x003b)]
         Semicolon,
 
         [Keycode(Platform = "OSX", Keycode = 0x2F)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xBE)]
         [Keycode(Platform = "Linux", Keycode = 0x002e)]
         Dot,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x15)]
+        [Keycode(Platform = "Windows", Keycode = 0x34)]
         [Keycode(Platform = "Linux", Keycode = 0x0024)]
         Dollar,
 
         [Keycode(Platform = "OSX", Keycode = 0x2C)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xBF)]
         [Keycode(Platform = "Linux", Keycode = 0x002f)]
         Slash,
 
         [Keycode(Platform = "OSX", Keycode = 0x2A)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xDC)]
         [Keycode(Platform = "Linux", Keycode = 0x005c)]
         Backslash,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x17)]
+        [Keycode(Platform = "Windows", Keycode = 0x35)]
         [Keycode(Platform = "Linux", Keycode = 0x0025)]
         Percent,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x2B)]
+        [Keycode(Platform = "Windows", Keycode = 0xE2)]
         [Keycode(Platform = "Linux", Keycode = 0x003c)]
         LessThan,
 
         [Keycode(Platform = "OSX", Keycode = 0x18)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xBB)]
         [Keycode(Platform = "Linux", Keycode = 0x003d)]
         Equal,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x2F)]
+        [Keycode(Platform = "Windows", Keycode = 0xE2)]
         [Keycode(Platform = "Linux", Keycode = 0x003e)]
         GreaterThan,
 
+        //Shift held down
         [Keycode(Platform = "OSX", Keycode = 0x27)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xDE)]
         [Keycode(Platform = "Linux", Keycode = 0x0022)]
         QuotationMark,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x19)]
+        [Keycode(Platform = "Windows", Keycode = 0x39)]
         [Keycode(Platform = "Linux", Keycode = 0x0028)]
         OpenParenthesis,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x1D)]
+        [Keycode(Platform = "Windows", Keycode = 0x30)]
         [Keycode(Platform = "Linux", Keycode = 0x0029)]
         CloseParenthesis,
 
         [Keycode(Platform = "OSX", Keycode = 0x21)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xDB)]
         [Keycode(Platform = "Linux", Keycode = 0x005b)]
         OpenBracket,
 
         [Keycode(Platform = "OSX", Keycode = 0x1E)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "Windows", Keycode = 0xDD)]
         [Keycode(Platform = "Linux", Keycode = 0x005d)]
         CloseBracket,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x21)]
+        [Keycode(Platform = "Windows", Keycode = 0xDB)]
         [Keycode(Platform = "Linux", Keycode = 0x007b)]
         OpenBrace,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x1E)]
+        [Keycode(Platform = "Windows", Keycode = 0xDD)]
         [Keycode(Platform = "Linux", Keycode = 0x007d)]
         CloseBrace,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x2B)]
-        [Keycode(Platform = "Windows", Keycode = 0x5A)]
+        [Keycode(Platform = "OSX", Keycode = 0x2C)]
+        [Keycode(Platform = "Windows", Keycode = 0xBF)]
         [Keycode(Platform = "Linux", Keycode = 0x003f)]
         Interrogation,
-
+        
 
         /* Modifiers */
         [Keycode(Platform = "OSX", Keycode = 0x37)]
-        [Keycode(Platform = "Windows", Keycode = 0x5b)]
         Command,
 
         [Keycode(Platform = "OSX", Keycode = 0x38)]
-        [Keycode(Platform = "Windows", Keycode = 0xA0, ScanCode = 0xAA)]
-        [Keycode(Platform = "Linux", ScanCode = 0xffe1)]
+        [Keycode(Platform = "Windows", Keycode = 0x10)]
+        [Keycode(Platform = "Linux", Keycode = 0xffe1)]
         Shift,
 
         [Keycode(Platform = "OSX", Keycode = 0x3B)]
-        [Keycode(Platform = "Windows", Keycode = 0xA2, ScanCode = 0x9D)]
+        [Keycode(Platform = "Windows", Keycode = 0x11)]
         [Keycode(Platform = "Linux", Keycode = 0xffe3)]
         Control,
 
         [Keycode(Platform = "OSX", Keycode = 0x3A)]
-        [Keycode(Platform = "Windows", Keycode = 0x12, ScanCode = 0xB8)]
-        [Keycode(Platform = "Linux", Keycode = 0xffe9)]
         Option,
 
-        [Keycode(Platform = "Windows", Keycode = 0x12, ScanCode = 0xB8)]
-        [Keycode(Platform = "OSX", Keycode = 0x3A)]
+        [Keycode(Platform = "Windows", Keycode = 0x12)]
         [Keycode(Platform = "Linux", Keycode = 0xffe9)]
         Alt,
 
@@ -331,27 +337,26 @@ namespace Desktop.Robot
         /* Other keys */
 
         [Keycode(Platform = "OSX", Keycode = 0x30)]
-        [Keycode(Platform = "Windows", Keycode = 0x09, ScanCode = 0x8F)]
-        [Keycode(Platform = "Linux", Keycode = 0xff09)]
+        [Keycode(Platform = "Windows", Keycode = 0x9)]
+        [Keycode(Platform = "Linux", Keycode = 0xff0)]
         Tab,
-        
-        [Keycode(Platform = "OSX", Keycode = 0x33)]
+
+        [Keycode(Platform = "OSX", Keycode = 0x75)]
         [Keycode(Platform = "Windows", Keycode = 0x2E)]
-        [Keycode(Platform = "Linux", Keycode = 0xffff)]
+        [Keycode(Platform = "Linux", Keycode = 0xfff)]
         Delete,
-        
+
         [Keycode(Platform = "OSX", Keycode = 0x35)]
         [Keycode(Platform = "Windows", Keycode = 0x1B)]
-        [Keycode(Platform = "Linux", Keycode = 0xff1b)]
+        [Keycode(Platform = "Linux", Keycode = 0xff1)]
         Esc,
 
-        //[Keycode(Platform = "OSX", Keycode = 0x35)]
         [Keycode(Platform = "Windows", Keycode = 0x2D)]
-        [Keycode(Platform = "Linux", Keycode = 0xff9e)]
+        [Keycode(Platform = "Linux", Keycode = 0xff63)]
         Insert,
 
         [Keycode(Platform = "OSX", Keycode = 0x73)]
-        [Keycode(Platform = "Windows", Keycode = 0xAC)]
+        [Keycode(Platform = "Windows", Keycode = 0x24)]
         [Keycode(Platform = "Linux", Keycode = 0xff50)]
         Home,
 
@@ -370,16 +375,18 @@ namespace Desktop.Robot
         [Keycode(Platform = "Linux", Keycode = 0xff56)]
         PageDown,
 
-        [Keycode(Platform = "Windows", Keycode = 0x08, ScanCode = 0x8E)]
+        [Keycode(Platform = "OSX", Keycode = 0x33)]
+        [Keycode(Platform = "Windows", Keycode = 0x8)]
         [Keycode(Platform = "Linux", Keycode = 0xff08)]
         Backspace,
 
-        [Keycode(Platform = "OSX", Keycode = 0x45)]
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x18)]
         [Keycode(Platform = "Windows", Keycode = 0xBB)]
         [Keycode(Platform = "Linux", Keycode = 0x002b)]
         Plus,
 
-        [Keycode(Platform = "OSX", Keycode = 0x4E)]
+        [Keycode(Platform = "OSX", Keycode = 0x1B)]
         [Keycode(Platform = "Windows", Keycode = 0xBD)]
         [Keycode(Platform = "Linux", Keycode = 0x002d)]
         Minus,
@@ -393,7 +400,7 @@ namespace Desktop.Robot
         ScrollLock,
 
         [Keycode(Platform = "Windows", Keycode = 0x90)]
-        [Keycode(Platform = "Linux", Keycode = 0xff14)]
+        [Keycode(Platform = "Linux", Keycode = 0xff7f)]
         NumLock,
 
         [Keycode(Platform = "Windows", Keycode = 0x13)]
@@ -452,7 +459,7 @@ namespace Desktop.Robot
         [Keycode(Platform = "Windows", Keycode = 0x79)]
         [Keycode(Platform = "Linux", Keycode = 0xffc7)]
         F10,
-        
+
         [Keycode(Platform = "OSX", Keycode = 0x67)]
         [Keycode(Platform = "Windows", Keycode = 0x7A)]
         [Keycode(Platform = "Linux", Keycode = 0xffc8)]
@@ -463,21 +470,90 @@ namespace Desktop.Robot
         [Keycode(Platform = "Linux", Keycode = 0xffc9)]
         F12,
 
-        [Keycode(Platform = "OSX", Keycode = 0x7e)]
+        [Keycode(Platform = "OSX", Keycode = 0x7E)]
         [Keycode(Platform = "Windows", Keycode = 0x26)]
+        [Keycode(Platform = "Linux", Keycode = 0xff52)]
         Up,
 
-        [Keycode(Platform = "OSX", Keycode = 0x7d)]
+        [Keycode(Platform = "OSX", Keycode = 0x7D)]
         [Keycode(Platform = "Windows", Keycode = 0x28)]
+        [Keycode(Platform = "Linux", Keycode = 0xff54)]
         Down,
 
-        [Keycode(Platform = "OSX", Keycode = 0x7b)]
+        [Keycode(Platform = "OSX", Keycode = 0x7B)]
         [Keycode(Platform = "Windows", Keycode = 0x25)]
+        [Keycode(Platform = "Linux", Keycode = 0xff51)]
         Left,
 
-        [Keycode(Platform = "OSX", Keycode = 0x7c)]
+        [Keycode(Platform = "OSX", Keycode = 0x7C)]
         [Keycode(Platform = "Windows", Keycode = 0x27)]
+        [Keycode(Platform = "Linux", Keycode = 0xff53)]
         Right,
+
+        [Keycode(Platform = "OSX", Keycode = 0x31)]
+        [Keycode(Platform = "Windows", Keycode = 0x20)]
+        [Keycode(Platform = "Linux", Keycode = 0x0020)]
+        Space,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x12)]
+        [Keycode(Platform = "Windows", Keycode = 0x31)]
+        [Keycode(Platform = "Linux", Keycode = 0x0021)]
+        Exclamation,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x14)]
+        [Keycode(Platform = "Windows", Keycode = 0x33)]
+        [Keycode(Platform = "Linux", Keycode = 0x0023)]
+        NumberSign,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x1A)]
+        [Keycode(Platform = "Windows", Keycode = 0x37)]
+        [Keycode(Platform = "Linux", Keycode = 0x0026)]
+        Ampersand,
+
+        [Keycode(Platform = "OSX", Keycode = 0x27)]
+        [Keycode(Platform = "Windows", Keycode = 0xDE)]
+        [Keycode(Platform = "Linux", Keycode = 0x0027)]
+        Apostrophe,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x1C)]
+        [Keycode(Platform = "Windows", Keycode = 0x38)]
+        [Keycode(Platform = "Linux", Keycode = 0x002a)]
+        Asterisk,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x13)]
+        [Keycode(Platform = "Windows", Keycode = 0x32)]
+        [Keycode(Platform = "Linux", Keycode = 0x0040)]
+        At,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x1B)]
+        [Keycode(Platform = "Windows", Keycode = 0xBD)]
+        [Keycode(Platform = "Linux", Keycode = 0x005f)]
+        Underscore,
+
+        [Keycode(Platform = "OSX", Keycode = 0x32)]
+        [Keycode(Platform = "Windows", Keycode = 0xC0)]
+        [Keycode(Platform = "Linux", Keycode = 0x0060)]
+        Grave,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x2A)]
+        [Keycode(Platform = "Windows", Keycode = 0xDC)]
+        [Keycode(Platform = "Linux", Keycode = 0x007c)]
+        Bar,
+
+        //Shift held down
+        [Keycode(Platform = "OSX", Keycode = 0x32)]
+        [Keycode(Platform = "Windows", Keycode = 0xC0)]
+        [Keycode(Platform = "Linux", Keycode = 0x007e)]
+        Tilde,
+
+
     }
 
     public static class KeysExtensions 
